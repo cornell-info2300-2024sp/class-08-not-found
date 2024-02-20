@@ -13,7 +13,7 @@ $form_bouquet = $_POST["bouquet"]; // untrusted
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'includes/meta.php ?>
+<?php include 'includes/meta.php' ?>
 
 <body>
   <?php include 'includes/header.php' ?>
@@ -28,13 +28,13 @@ $form_bouquet = $_POST["bouquet"]; // untrusted
 
     <dl>
       <dt>Business Name</dt>
-      <dd><? php echo htmlspecialchars($form_name); ?></dd>
+      <dd><?php echo htmlspecialchars($form_name); ?></dd>
 
       <dt>Contact Phone</dt>
-      <dd><? php echo htmlspecialchars($form_name); ?></dd>
+      <dd><?php echo htmlspecialchars($form_phone); ?></dd>
 
       <dt>Bouquet</dt>
-      <dd><? php echo htmlspecialchars($form_bouquet); ?></dd>
+      <dd><?php echo htmlspecialchars($form_bouquet); ?></dd>
     </dl>
 
   </main>
